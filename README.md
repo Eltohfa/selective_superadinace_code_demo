@@ -26,6 +26,19 @@ I write my code in a modular way:
 
 If you have any questions, reach out to me through [my email](mailto:tohfa@aucegypt.edu).
 
+## Quick start
+
+```bash
+git clone https://github.com/Eltohfa/selective_superadinace_code_demo.git
+cd selective_superadinace_code_demo
+
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install numpy scipy matplotlib numba jupyter
+jupyter notebook
+
+Then open selective_superadiance.ipynb and run the cells in order.
+
 ## Requirement
 
 Ensure that the libraries listed at the header of each file are installed if they are not already available. In particular, I used **Numba** to accelerate the performance of numerical computations in Python. Numba is a Just-in-Time (JIT) compiler that translates a subset of Python and NumPy code into fast machine code. It is particularly useful for speeding up loops and array operations, making it an excellent choice for computational tasks in scientific computing.
